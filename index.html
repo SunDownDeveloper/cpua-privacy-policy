@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - CPU A</title>
     <style>
+        /* --- AUTO DARK/LIGHT MODE VARIABLES --- */
+        :root {
+            --bg-color: #f4f7f6;
+            --surface-color: #ffffff;
+            --text-main: #222222;
+            --text-muted: #555555;
+            --accent: #007bff;
+            --card-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            --border-line: #eeeeee;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #121212;
+                --surface-color: #1e1e1e;
+                --text-main: #ffffff;
+                --text-muted: #a0a0a0;
+                --accent: #00a8ff;
+                --card-shadow: 0 4px 12px rgba(0,0,0,0.5);
+                --border-line: #333333;
+            }
+        }
+        
         body {
             font-family: Arial, sans-serif;
             line-height: 1.7;
